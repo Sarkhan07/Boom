@@ -4,7 +4,7 @@ import React from "react";
 import Colors from "@/constants/colors";
 
 export default function AgreementScreen() {
-  // Safely fallback if Colors is not found or has different structure on Next.js
+  // Safely fallback if Colors is not found or has different structure on Next.js test
   const surface = Colors?.light?.surface || "#ffffff";
   const bg = Colors?.light?.background || "#f5f5f5";
   const border = Colors?.light?.border || "#e0e0e0";
